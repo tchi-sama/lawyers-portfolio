@@ -1,12 +1,3 @@
-<template>
-    <div class="bg-red-400">
-        <Header :links="links" :changePage="changePage" :activePage="activePage"/>
-        <div class="min-h-[50vh]">
-            <h1 class="text-5xl">tchisama a programer</h1>
-            <h4 class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam placeat magni mollitia laborumramer</h4>
-        </div>
-    </div>
-</template>
 <script>
     import Header from "./Header.vue"
     export default{
@@ -17,3 +8,17 @@
         }
     }
 </script>
+
+<template>
+    <div class="bg-gray-100 bg-[url(https://wallpaperaccess.com/full/1558517.jpg)] ">
+        <div class="container mx-auto">
+            <Header :links="links" :changePage="changePage" :activePage="activePage"/>
+            <div class="min-h-[50vh]  flex flex-col gap-4 items-start justify-center text-white">
+                <h1 class="text-7xl drop-shadow-md font-bold">مكتب
+                    ذ. رشيد لبرود</h1>
+                <h4>مفوض قضائي لدى الدائرة القضائية بمراكش</h4>
+                <button class="btn bg-red-500 border-none text-white hover:bg-red-600">احجز موعد الآن</button>
+            </div>
+        </div>
+    </div>
+</template>
