@@ -4,6 +4,7 @@
     <Certificates/>
     <Ser/>
     <HowTo/>
+    <Footer/>
 </template>
 <script>
     import Banner from "../components/Banner.vue"
@@ -11,6 +12,7 @@
     import Certificates from "../components/Certificates.vue"
     import Ser from "../components/Ser.vue"
     import HowTo from "../components/HowTo.vue"
+    import Footer from "../components/Footer.vue"
     export default {
         props:["links","activePage","changePage"],
         components:{
@@ -19,7 +21,8 @@
                 Certificates,
                 Certificates,
                 Ser,
-                HowTo
+                HowTo,
+                Footer
             }
     }
 </script>
