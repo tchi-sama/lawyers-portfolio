@@ -1,12 +1,10 @@
 <template>
-  <div dir="rtl">
+  <div dir="rtl" class="bg-gray-100">
     <Home :changePage="changePage" :links="links" :activePage="activePage"/>
-    
   </div>
 </template>
 
 <script>
-import Banner from './components/Banner.vue'
 import Home from "./pages/home.vue"
 export default{
     data(){
